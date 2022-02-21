@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesdf1.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;0,700;1,200;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Desafio Formulário html - Dev club</title>
+  </head>
+
+  <body>
+    <fieldset>
+      <legend>Cadastro</legend>
+      <form action="" method="get">
+        <label>
+          Nome:
+          <input class="input" type="text" name="Name" required />
+        </label>
+        <br />
+        <br />
+        <label class="email">
+          E-mail:
+          <input class="input" type="email" name="email" required />
+        </label>
+        <br />
+        <br />
+        <label class="age">
+          Idade:
+          <input
+            class="input"
+            type="number"
+            name="age"
+            size="1"
+            min="12"
+            max="100"
+            required
+          />
+        </label>
+        <br />
+        <br />
+
+        <label class="date">
+          Data de Nascimento:
+
+          <input
+            id="input-date"
+            type="date"
+            name="Data de nascimento"
+            min="01-12-2010"
+            required
+          />
+        </label>
+        <br />
+        <br />
+
+        <label class="social-media">
+          Onde você possui conta:
+
+          <div>
+            <input type="checkbox" name="Facebook" /> Facebook
+            <input type="checkbox" name="Instagram" /> Instagram
+            <input type="checkbox" name="Linkedin" /> LindkedIn
+          </div>
+        </label>
+        <br />
+        <div class="sex">
+          Sexo:
+          <br />
+          <input type="radio" name="radiosexo" />
+          <label for="radiomasculino">Masculino</label>
+          <input type="radio" name="radiosexo" />
+          <label for="radiofeminino">Feminino</label>
+        </div>
+        <br />
+        <label class="eyes">
+          Cor dos Olhos <input id="color" type="color" />
+        </label>
+        <br />
+        <br />
+
+        <label class="bio">
+          Biografia
+
+          <textarea name="info" id="info"></textarea>
+          <br />
+          <br />
+        </label>
+
+        <label class="photo-profile">
+          Foto do perfil
+          <input type="file" accept="image/*" id="file" />
+          <br />
+          <br />
+        </label>
+
+        <label class="tel">
+          Telefone
+
+          <input class="input" type="tel" />
+          <br />
+          <br />
+        </label>
+
+        <label class="facebook">
+          Link do Perfil do Facebook
+
+          <input class="input" type="url" />
+          <br />
+          <br />
+        </label>
+
+        <label class="password">
+          Senha
+
+          <input class="input" type="password" minlength="6" maxlength="8" />
+          <br />
+          <br />
+        </label>
+
+        <div>
+          <button class="reset" type="reset">Limpar</button>
+          <button class="submit" type="submit">Enviar</button>
+        </div>
+      </form>
+    </fieldset>
+  </body>
+</html>
