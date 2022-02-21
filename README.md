@@ -10,7 +10,12 @@
 ![image](https://user-images.githubusercontent.com/95030203/155025318-f7a2634e-bac0-4409-9059-3a9eb27e4f62.png)
 
 > Imagem do código HTML no Visual studio code, realizado apenas em html.
-> 
+
+![image](https://user-images.githubusercontent.com/95030203/155026568-af0149a4-a2a2-4dc5-bd8e-dd577ce3a02f.png)
+
+>Imagem da aplicação em live server.
+
+
 ## 💻 Pré-requisitos
 O desafio contou com algumas regras:
 
